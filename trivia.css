@@ -1,35 +1,42 @@
-
-.body {
-
-    background-color: red;
+.filler {
+  height: 150px;
+  padding: 10px;
+  background-color: black;
+  color: red;
 }
 
+.text-muted {
+  color: red;
+}
 
-.home-home-inner{
-height: 500px;
-   background-image: url(assets/images/7274fae7dfa28b6a23a74901a20d3228.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    
+.jumbotron {
+  height: 500px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6) !important;
+  margin-bottom: -30px;
+}
+.wrapper {
+  height: 500px;
+  background-image: url(assets/images/7274fae7dfa28b6a23a74901a20d3228.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .caption {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 25%;
-    z-index: 1;
-    color: black;
-    text-transform: uppercase;
-    
-  }
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+}
 
-  .game {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 25%;
-    z-index: 1;
-    color: black;
-    text-transform: uppercase;
-  }
+.game {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+}
